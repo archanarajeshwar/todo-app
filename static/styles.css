@@ -1,0 +1,91 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 100px 300px 300px 400px;
+    padding: 20px 20px 20px 20px;
+    background-color: #070F2B;
+    align-items : center;
+    ju
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+h1 {
+    text-align : center;
+    color: #333;
+}
+
+.add-form {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.add-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1B1A55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+     font-family: "Lucida Console", "Courier New", monospace;
+
+
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.actions {
+    float: right;
+    margin-left: 10px;
+}
+
+.actions a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
